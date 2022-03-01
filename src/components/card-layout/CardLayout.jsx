@@ -4,6 +4,7 @@ export default function CardLayout() {
     return (
         <Card 
           sx={{width: 320, height:220}}>
+              asd
         </Card>
     )
 }
