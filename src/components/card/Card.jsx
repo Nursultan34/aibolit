@@ -1,10 +1,12 @@
+import CardLayout from '../card-layout/CardLayout'
 import './Card.css'
-import { Card, Typography } from '@mui/material'
 
-export default function DirectionCard({}) {
+
+export default function DirectionCard() {
     return (
-        <Card sx={{width: 320, height:220}}>
-            
-        </Card>
+        <CardLayout>
+            Hello
+            <img src='cardiology.sbg' alt='cardiology'/>
+        </CardLayout>
     )
 }
