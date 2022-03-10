@@ -1,5 +1,6 @@
 import './App.css';
-import DirectionCard from './components/card/Card';
+import DirectionCard from './Cards/card/Card';
+
 
 function App() {
   return (
